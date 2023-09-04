@@ -103,6 +103,9 @@ img {
   .hero .text_hero p {
     font-size: 20px;
   }
+  .hero {
+    width: 100%;
+  }
 }
 /* **************about-us****************** */
 
@@ -112,8 +115,12 @@ img {
 }
 @media(max-width: 767px){
   .about-us img {
-    width: 40%;
-    margin-right: 80px;
+    width: 20%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .about-us  {
+    width: 100%;
   }
 }
 
@@ -126,6 +133,14 @@ img {
 .about_img img {
   width: 100%;
   object-fit: cover;
+}
+@media(max-width: 767px){
+  .about_img img {
+    width: 100%;
+  }
+  .about_one .content_about_one img {
+    margin-left: 300px;
+  }
 }
 .about_one {
   margin-top: 100px;
@@ -161,6 +176,12 @@ img {
 
 .team {
   margin-top: 100px;
+}
+@media(max-width:676px){
+  .founder-info .text-center img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
 }
 
 
@@ -272,6 +293,13 @@ footer .footer_icon .icon_1 {
     padding: 10px 20px;
     font-size: 10px;
     font-weight: bold;
+    display: block;
+  }
+  .hero_contact .text_hero_contact h1 {
+    font-size: 30px;
+  }
+  .hero_contact .imges_hero_contact img {
+    width: 100%;
   }
 }
 /* ***********registar***************** */
@@ -328,13 +356,19 @@ footer .footer_icon .icon_1 {
 }
 @media (max-width: 676px) {
   .registar h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .data_registar {
     width: 100%;
   }
+  
   .btn_registar .btn2 {
-    margin-left: 50px;
+   display: block;
+   margin-bottom: 20px;
+  
+  }
+  .data_registar {
+    width: 80%;
   }
 }
 /* *********************accordion_question******************* */
@@ -352,6 +386,15 @@ footer .footer_icon .icon_1 {
 .accordion_question p {
   text-align: center;
 
+}
+@media (max-width: 676px) {
+  .accordion_question {
+    width: 100%;
+   
+  }
+  .accordion_question p {
+    display: none;
+  }
 }
 .accordion-item {
   width: 90%;

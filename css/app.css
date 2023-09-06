@@ -11,6 +11,7 @@ img {
       background-color: #073474 !important;
       direction: ltr;
       padding: 0;
+      
     }
     
     .navbar .container .navbar-brand {
@@ -7490,17 +7491,25 @@ span img {
     /*---------- Mobile Site nav toggler ----------*/
     .navbar-toggler {
         position: absolute;
-        left: -13px;
-        border: none;
-        height: 100%;
-        width: 3.75rem;
+        left: 320px;    
+        background: #f00;
+        width: 3.65rem;
         background-image: none;
-        border-radius: 0;
         z-index: 1;
         display: inline-block;
-        display: none;
+        display: block;
+        background: #073474;
+        font-size: 20px;
+        border: 2px solid #183493;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-right: 10px;
+        
     }
-    .navbar-inner .navbar-toggler {
+    .navbar-toggler button {
+        width: 100%;
+    }
+    /* .navbar-inner .navbar-toggler {
         position: absolute;
         height: 2.5rem;
         top: 0;
@@ -7590,7 +7599,7 @@ span img {
     }
     .navbar-light .navbar-toggler-icon.active:after {
         background: #12141f;
-    }
+    } */
 }
 
 

@@ -1,3 +1,4 @@
+
 (function($) {
     "use strict";
 
@@ -213,7 +214,7 @@
         arrows: false,
         dots: true,
         rtl: true,
-        // autoplay: true,
+        autoplay: true,
         speed: 800,
         pauseOnDotsHover: true
     });

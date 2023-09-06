@@ -7498,6 +7498,7 @@ span img {
         border-radius: 0;
         z-index: 1;
         display: inline-block;
+        display: none;
     }
     .navbar-inner .navbar-toggler {
         position: absolute;
@@ -7653,6 +7654,7 @@ span img {
 /**! 46. hero **/
 
 .hero {
+    display: none;
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
 }
@@ -10355,6 +10357,10 @@ body.boxed-layout.zig-zag-wool {
 @media(max-width: 676px)  {
     #margin {
         margin-right: 50px;
+        
+    }
+    nav {
+        width: 100%;
     }
     nav span {
         display: block !important;

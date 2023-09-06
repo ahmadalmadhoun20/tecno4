@@ -110,6 +110,44 @@ img {
   .hero {
     width: 100%;
   }
+  .navbar  {
+    width: 100%;
+  }
+  .bord1 {
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .about_img {
+    display: block;
+  }
+  .about_one {
+    display: block;
+  }
+  .founder-info {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about25 {
+    display: block;
+  }
+  .hero {
+    display: block;
+  }
+  .about-us  {
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .about-us h3 {
+    margin-right: 40px;
+  }
+  .about-us p {
+    margin-right: 40px;
+    width: 80%;
+  }
+  
 }
 /* **************about-us****************** */
 
@@ -698,3 +736,6 @@ footer .footer_icon .icon_1 {
   opacity: .9
 }
 
+footer .footer_icon i {
+  color: #fff;
+}

@@ -41,6 +41,14 @@ top1.onclick = () => {
         behavior: 'smooth',
     })
 }
-
+$('.carosuel-slider--v1').slick({
+    slidesToShow: 1,
+    arrows: false,
+    dots: true,
+    rtl: true,
+    autoplay: true,
+    speed: 800,
+    pauseOnDotsHover: true
+});
 
 

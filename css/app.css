@@ -7,11 +7,20 @@ img {
     height: 100%;
     object-fit: cover;
   }
+  header {
+    background: #083473 !important;
+  }
   .navbar {
       background-color: #073474 !important;
       direction: ltr;
       padding: 0;
+      align-items: center;
+
       
+    }
+    .navbar .navbar-toggler-icon {
+        margin-left: 100px;
+        
     }
     
     .navbar .container .navbar-brand {
@@ -53,6 +62,7 @@ img {
     }
     nav {
       z-index: 21;
+     
     }
 body {
     -moz-osx-font-smoothing: grayscale;
@@ -10371,7 +10381,26 @@ body.boxed-layout.zig-zag-wool {
     nav {
         width: 100%;
     }
-    nav span {
-        display: block !important;
-    }
+    
+}
+
+.back_top {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #073474;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    position: fixed;
+    right: 20px;
+    bottom: -100%;
+}
+.back_top:hover {
+    opacity: 0.9;
+  }
+.back_top.show {
+    bottom: 20px;
 }

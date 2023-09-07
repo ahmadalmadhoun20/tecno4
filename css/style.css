@@ -740,3 +740,23 @@ footer .footer_icon .icon_1 {
 footer .footer_icon i {
   color: #fff;
 }
+.back_top {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #073474;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  position: fixed;
+  right: 20px;
+  bottom: -100%;
+}
+.back_top:hover {
+  opacity: 0.9;
+}
+.back_top.show {
+  bottom: 20px;
+}

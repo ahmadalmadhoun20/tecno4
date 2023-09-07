@@ -1,7 +1,23 @@
 var hde = document.querySelector('#hde');
 var top1 = document.querySelector('.top1');
 
+var back_top = document.querySelector('.back_top');
 
+
+window.onscroll = () => {
+    if(window.scrollY > 200) {
+        back_top.classList.add('show');
+    }else {
+        back_top.classList.remove('show');
+    }
+}
+
+back_top.onclick = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+}
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -50,5 +66,6 @@ $('.carosuel-slider--v1').slick({
     speed: 800,
     pauseOnDotsHover: true
 });
+
 
 

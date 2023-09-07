@@ -469,3 +469,22 @@
     }
 
 })(jQuery);
+
+
+var back_top = document.querySelector('.back_top');
+
+
+window.onscroll = () => {
+    if(window.scrollY > 200) {
+        back_top.classList.add('show');
+    }else {
+        back_top.classList.remove('show');
+    }
+}
+
+back_top.onclick = () => {
+    window.scrollTo({
+        top: 0,
+        behavior : 'smooth'
+    });
+}

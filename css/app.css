@@ -10397,6 +10397,7 @@ body.boxed-layout.zig-zag-wool {
     position: fixed;
     right: 20px;
     bottom: -100%;
+    z-index: 100;
 }
 .back_top:hover {
     opacity: 0.9;

@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+@font-face {
+  font-family: Cairo;
+  src: url(../fonts/Cairo-VariableFont_slnt\,wght.ttf);
+}
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
     direction: rtl;
+    font-family: Cairo;
 }
 img {
   width: 100%;

@@ -1,7 +1,7 @@
 
 @font-face {
-  font-family: Cairo;
-  src: url(../fonts/Cairo-VariableFont_slnt\,wght.ttf);
+  font-family: Regular;
+  src: url(../fonts/Poppins-Regular.ttfv);
 }
 * {
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 body {
     margin: 0;
     direction: rtl;
-    font-family: Cairo;
+    font-family: Regular;
 }
 img {
   width: 100%;
@@ -103,6 +103,13 @@ img {
   margin-right: 0px;
   text-align: center;
   color: #fba824;
+}
+.content_about_one {
+  height: 240px;
+}
+.content_about_one img {
+  object-fit: cover;
+  height: 100px;
 }
 @media(max-width:  676px) {
   .hero .imges_hero img {

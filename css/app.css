@@ -10495,6 +10495,7 @@ footer {
     font-weight: 900;
     margin-right: 10px;
     color: var(--main-color);
+    
   }
   .footer .box .line {
     display: flex;
@@ -10526,6 +10527,7 @@ footer {
   .footer .box .line .info {
     line-height: 1.7;
     flex: 1;
+    width: 100%;
   }
   .footer .box .line .info span {
     display: block;
@@ -10551,3 +10553,24 @@ footer {
         text-align: center;
       }
   }
+  @media (max-width: 676px) {
+    .footer .box .line i {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .footer .box .line .info {
+      text-align: center;
+      margin-right: 92px;
+      width: 100%;
+    }
+  }
+
+#icon1 {
+    margin-right: 20px;
+}
+@media(max-width: 676px) {
+    #icon1 {
+        margin-right: 93px;
+        padding-bottom: 8px;
+    }
+}
